@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Mustard</title>
+        <meta name="description" content="Healthy Meals">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <section id="must">
+                <center>
+                    <img src="images/logo.png">
+                    <!-- <h1 class="text-center"> Mustard  -->
+                        <br>
+                        <small>Healthy Meals Based On You <span class="glyphicon glyphicon-cutlery"></span></small>
+                    <!-- </h1> -->
+                    
+                    <!-- twitter -->
+                    <a id="tm" href="https://twitter.com/intent/tweet?button_hashtag=Mustard&text=Whats%20eating%20you" class="twitter-hashtag-button" data-lang="en" data-related="jasoncosta" data-size="large">Tweet #Mustard</a>
+
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                    </script>
+
+                     <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) return;
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=526853880745597&version=v2.0";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                        </script>
+
+                    <br> <!-- facebook like -->
+                    <div
+                      class="fb-like"
+                      data-send="true"
+                      data-width="400"
+                      data-show-faces="true">
+                    </div>
+
+                </center>    
+            </section>    
+
+            <form> <!-- php -->
+
+                <section id="options">
+                    <center>
+
+                    <div id="spend">
+                        <h3>How much would you like to spend</h3>
+                        <input type="number" min="0.01" step="0.01" max="2500" value="25.00">
+                    </div>   
+
+                    <br>
+
+                    <div id="retrict" class="btn-group">
+                        <small>Dietary Filter</small>
+                      <button class="btn btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                        Retrictions <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Vegetarian</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Vegan</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Gluten-free</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Nut-free</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Dairy-free</a></li>
+                      </ul>
+                    </div>
+
+                    <br>
+
+                    <div id="age" class="btn-group">
+                        <small>Benefits every age</small>
+                      <button class="btn btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                        Age Range <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Less than 17</li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">14-35</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">36-50</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">50 and up</a></li>
+                      </ul>
+                    </div>
+
+
+                   <!--  <div id="meals" class="btn-group">
+                        <small>Are you planing a meal for just today or for the week?</small>
+                      <button class="btn btn-lg dropdown-toggle" data-toggle="dropdown">
+                        Number of meals <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Today</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Work Week</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Weekend</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All seven days</a></li>
+                      </ul>
+                    </div> -->
+
+                    <div id="preg">
+                        <h3>Pregnant</h3>
+                        <small>We want you to have the best nutrition during this time</small>
+                        <div class="slideThree">    
+                            <input type="checkbox" value="None" id="slideThree" name="check" />
+                            <label for="slideThree"></label>
+                        </div>
+                        <!-- <input type="radio" value="yes">Yes
+                        <input type="radio" value="no">No -->
+                    </div> 
+                    <br>
+
+                    <!-- Feed Me ...... Button trigger modal -->
+                    <button class="btn btn-lg" data-toggle="modal" data-target="#myModal">
+                      Feed Me
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Feeding You</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                            <!-- php -->
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </center>
+                </section>
+
+            </form> <!-- php form -->   
+
+            <footer class="clearfix">
+                &copy; 2014 Mustard Inc. All Rights Reserved.
+                <h5>Made In NYC</h5> <span class="glyphicon glyphicon-leaf"></span>
+            </footer>
+        </div>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+</html>

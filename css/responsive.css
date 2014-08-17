@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1108px) {
+
+#options {
+	padding: 1em 2em;
+}
+
+#tm {
+	margin-left: 3em;
+}
+
+}	
+
+@media only screen and (max-width: 450px) {
+
+#must img {
+	width: 100%;
+}
+#must {
+  background: none;
+  padding: 1em;
+  margin: 1em 2em; }
+  /*#must h1 {
+    font-family: 'Source Code Pro';
+    font-size: 3em;
+    color: #f1d326; }*/
+  
+  #must div {
+    margin: 1.5em 0 0 0; }
+
+   #must small {
+    font-size: 1em;
+   }
+
+#options small {
+font-size: 1em; 
+}
+ #options div {
+  margin: .5em 0; 
+}
+
+ #options .dropdown-toggle {
+  margin-left: 3em; }
+
+section {
+	margin: 1em;
+}	
+
+div {
+	margin: 1em 0;
+}
+
+footer {
+	font-size: .9em;
+	padding: 1em;
+}
+
+#tm {
+	margin-left: 6.5em;
+}
+
+}

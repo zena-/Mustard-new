@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+  background: url(../images/wood1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: black; }
+
+#wrapper div {
+  margin: 0; }
+
+#must {
+  background: none;
+  padding: 1em;
+  margin: 2em 7em; }
+  /*#must h1 {
+    font-family: 'Source Code Pro';
+    font-size: 3em;
+    color: #f1d326; }*/
+  
+  #must div {
+    margin: 1.5em 0 0 0; }
+
+   #must img {
+    margin: 0;
+   } 
+
+   #must small {
+    font-size: 3em;
+   }
+
+/*#retrict {
+  margin: 0.5em; }*/
+
+section {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 2em 7em;
+  padding: 1em 3em;
+  box-shadow: 9px 9px 28px #333;
+  font-family: 'Josefin Sans', sans-serif; }
+  
+#options small {
+font-size: 2em; 
+}
+ #options div {
+  margin: 1em 0; 
+}
+ #options ul li {
+  text-align: center; 
+}
+
+
+ #options .dropdown-toggle {
+  margin-left: 8em; }
+
+/*#options small {
+  font-size: 
+}  */
+
+#spend input {
+  display: block;
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 3px 5px #ccc;
+  border: 1px solid #ccc;
+  background: white; }
+#spend h3 {
+  color: black; }
+
+button {
+  box-shadow: 0 3px 10px #333;
+  color: black;
+  border-radius: 9px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font: bold 17px Arial;
+  text-decoration: none;
+  padding: 6px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+footer {
+  text-align: center;
+  font-size: 1.3em;
+  padding: 1.5em;
+  background: #eee;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  margin-top: 2em; }
+
+.slideThree {
+  width: 80px;
+  height: 26px;
+  background: #333;
+  margin: 20px auto;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2); }
+  .slideThree input {
+    display: none; }
+
+.slideThree:after {
+  content: 'OFF';
+  font: 12px/26px Arial, sans-serif;
+  color: #000;
+  position: absolute;
+  right: 10px;
+  z-index: 0;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15); }
+
+.slideThree:before {
+  content: 'ON';
+  font: 12px/26px Arial, sans-serif;
+  color: #f1d326;
+  position: absolute;
+  left: 10px;
+  z-index: 0;
+  font-weight: bold; }
+
+.slideThree label {
+  display: block;
+  width: 34px;
+  height: 20px;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 1;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  background: #fcfff4;
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); }
+
+.slideThree input[type=checkbox]:checked + label {
+  left: 43px; }
