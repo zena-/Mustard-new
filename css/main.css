@@ -101,7 +101,7 @@ footer {
     display: none; }
 
 .slideThree:after {
-  content: 'OFF';
+  content: 'No';
   font: 12px/26px Arial, sans-serif;
   color: #000;
   position: absolute;
@@ -111,7 +111,7 @@ footer {
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15); }
 
 .slideThree:before {
-  content: 'ON';
+  content: 'Yes';
   font: 12px/26px Arial, sans-serif;
   color: #f1d326;
   position: absolute;
